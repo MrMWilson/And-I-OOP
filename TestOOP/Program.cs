@@ -1,32 +1,19 @@
 ﻿
+using System;
+
 namespace TestOOP
 {
     class Program
     {
         static void Main(string[] args)
         {
-            var maths = new Mathematics();
+            var weatherClass = new Weather();
 
-            var seven = 7;
+            var currentTemp = 81;
 
-            var resultOfSeven = maths.IsDivisibleBy7(seven);
+           var result =  weatherClass.WeatherScale(currentTemp);
 
-            if(resultOfSeven == true)
-            {
-                System.Console.WriteLine("is divible by 7");
-            }
-            else
-            {
-                System.Console.WriteLine("isnt");
-            }
-
-            var string1 = "LOWER CASE ME";
-
-            var stringResult = maths.LowerCaseMe(string1);
-
-            System.Console.WriteLine(stringResult);
-
-
+            Console.WriteLine(result);
         }
     }
 }
