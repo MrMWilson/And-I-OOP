@@ -21,5 +21,19 @@ namespace TestOOP
 
             return testString.ToLower();
         }
+
+        public bool IsEven(int num)
+        {
+            if (num % 2 == 0)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+                
+            }
+        }
     }
 }

@@ -79,11 +79,8 @@ namespace TestOOP
                     return "If you were a person youd be declared medically dead";
 
                     break;
-
-                default:
-                   
-                    break;
             }
+            return null;
         }
     }
 }

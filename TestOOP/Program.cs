@@ -25,6 +25,8 @@ namespace TestOOP
             var stringResult = maths.LowerCaseMe(string1);
 
             System.Console.WriteLine(stringResult);
+
+
         }
     }
 }
