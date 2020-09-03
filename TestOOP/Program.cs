@@ -9,7 +9,7 @@ namespace TestOOP
         {
             var data = new Data();
 
-            var result = data.RemoveAnyJsPlz("HAHAHjaJaja");
+            var result = data.MultiplyByAlot(2);
 
             Console.WriteLine(result);
         }

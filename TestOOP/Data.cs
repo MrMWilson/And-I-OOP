@@ -42,5 +42,15 @@ namespace TestOOP
 
             return myStringToLower;
        }
+
+        public int MultiplyByAlot(int num)
+        {
+            for (int i = 0; i < 4; i++)
+            {
+                num *= num;
+            }
+
+            return num;
+        }
     }
 }
