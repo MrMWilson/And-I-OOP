@@ -5,15 +5,21 @@ namespace TestOOP
     {
         public bool IsDivisibleBy7(int num)
         {
-
-            return true;
+            if (num % 7 == 0)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }  
         }
 
         public string LowerCaseMe(string testString)
         {
 
 
-            return "";
+            return testString.ToLower();
         }
     }
 }
