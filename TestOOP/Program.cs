@@ -7,11 +7,9 @@ namespace TestOOP
     {
         static void Main(string[] args)
         {
-            var weatherClass = new Weather();
+            var data = new Data();
 
-            var currentTemp = 81;
-
-           var result =  weatherClass.WeatherScale(currentTemp);
+            var result = data.RemoveAnyJsPlz("HAHAHjaJaja");
 
             Console.WriteLine(result);
         }
